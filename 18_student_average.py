@@ -11,3 +11,7 @@ average_marks = total_marks / count
 print("Average marks: ", average_marks)
 print("Average marks:", round(average_marks, 2))
 print(f"Average marks: {average_marks:.2f}")
+
+
+
+
