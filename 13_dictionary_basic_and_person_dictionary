@@ -1,0 +1,14 @@
+#dictionary
+student = {"name": "Alice", "age": 20, "grade": "A"}
+print("Name:" + student["name"])
+print("Age:" + str(student["age"]))
+print("Grade :" + student["grade"]) 
+
+person = {"Name" : "Study Mitra", "Education" : "MCA", "Profession" : "Government Employee"}
+print("Name:" + person["Name"])
+print("Education:" + person["Education"])
+print("Profession:" + person["Profession"])
+
+print("Name:" , person["Name"])
+print("Education:" , person["Education"])
+print("Profession:" , person["Profession"])
