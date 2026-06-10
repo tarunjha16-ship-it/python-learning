@@ -28,9 +28,28 @@ def find_lowest_student(students):
             lowest_marks=student["Marks"]
             lowest_student=student["Name"]
     return lowest_marks, lowest_student
+
 lowest_marks, lowest_student = find_lowest_student(students)
+
+
 print("lowest student :", lowest_student)
 print("lowest marks :", lowest_marks)
+
+def find_pass_fail_student(students):
+    pass_count=0
+    fail_count=0
+    for student in students:
+        if student["Marks"]>=80:
+            pass_count=pass_count+1
+        else:
+            fail_count=fail_count+1
+    return pass_count,fail_count
+    
+pass_students, fail_students = find_pass_fail_student(students)
+
+print("passed students :", pass_students)
+print("fail students :", fail_students)
+
 
 
 
