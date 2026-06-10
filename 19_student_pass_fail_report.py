@@ -19,4 +19,19 @@ print("Passed students: ", pass_count)
 print("Failed students: ", fail_count)
 
 
+students=[{"Name" : "Mohan", "Marks" : 90}, {"Name" : "Sita", "Marks" : 75}, {"Name" : "Geeta", "Marks" : 88}, ]
+def find_lowest_student(students):
+    lowest_marks= students[0]["Marks"]
+    lowest_student=students[0]["Name"]
+    for student in students:
+        if student["Marks"] < lowest_marks:
+            lowest_marks=student["Marks"]
+            lowest_student=student["Name"]
+    return lowest_marks, lowest_student
+lowest_student, lowest_marks = find_lowest_student(students)
+print("lowest student :", lowest_student)
+print("lowest marks :", lowest_marks)
+
+
+
 
