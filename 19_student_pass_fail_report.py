@@ -28,10 +28,9 @@ def find_lowest_student(students):
             lowest_marks=student["Marks"]
             lowest_student=student["Name"]
     return lowest_marks, lowest_student
-lowest_student, lowest_marks = find_lowest_student(students)
+lowest_marks, lowest_student = find_lowest_student(students)
 print("lowest student :", lowest_student)
 print("lowest marks :", lowest_marks)
-
 
 
 
