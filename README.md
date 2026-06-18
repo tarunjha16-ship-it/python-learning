@@ -38,3 +38,10 @@ README.md
 This repository documents my Python learning journey and project development.
 
 More projects will be added as I continue learning.
+
+Day 12 Project - Menu Driven Student Management System using Python.
+Features:
+- Show Students
+- Search Student
+- Add Student
+- Exit Program
