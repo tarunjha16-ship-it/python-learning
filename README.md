@@ -45,3 +45,49 @@ Features:
 - Search Student
 - Add Student
 - Exit Program
+
+- # Day 13 - CSV File Handling and Permanent Storage
+
+## Overview
+
+In this project, student data is stored in a CSV file and loaded into Python using file handling. New student records can be added and saved permanently.
+
+## Files
+
+### students.csv
+
+Stores student records in CSV format.
+
+### 27_csv_load_students.py
+
+Reads student data from the CSV file and converts it into a list of dictionaries.
+
+### 28_csv_add_student.py
+
+Adds a new student record to the CSV file using append mode.
+
+## Concepts Practiced
+
+* File Handling
+* CSV Processing
+* Lists
+* Dictionaries
+* List of Dictionaries
+* Reading Files
+* Writing Files
+* Append Mode
+
+## Sample CSV Data
+
+Name,Marks,City
+
+Mohan,90,Jaipur
+
+Sita,75,Delhi
+
+Geeta,88,Mumbai
+
+## Learning Outcome
+
+Understood the difference between temporary storage (lists in memory) and permanent storage (CSV files on disk).
+
