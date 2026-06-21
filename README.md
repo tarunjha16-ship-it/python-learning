@@ -90,4 +90,32 @@ Geeta,88,Mumbai
 ## Learning Outcome
 
 Understood the difference between temporary storage (lists in memory) and permanent storage (CSV files on disk).
+# Student Management System
+
+A menu-driven Python project that stores student data in a CSV file.
+
+## Features
+
+* Show Students
+* Search Student
+* Add Student
+* Update Student Marks
+* Delete Student
+* Permanent CSV Storage
+
+## Concepts Used
+
+* Python Lists
+* Dictionaries
+* Functions
+* Loops
+* Conditional Statements
+* File Handling
+* CSV Processing
+
+## Author
+
+Created while learning Python programming.
+
+
 
